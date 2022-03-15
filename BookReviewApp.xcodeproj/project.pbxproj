@@ -27,6 +27,8 @@
 		1E8091F227E05D39003CAAE7 /* BookSearchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8091F127E05D39003CAAE7 /* BookSearchResponseModel.swift */; };
 		1E8091F427E05E71003CAAE7 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8091F327E05E71003CAAE7 /* Book.swift */; };
 		1E8091F627E05EA6003CAAE7 /* BookSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8091F527E05EA6003CAAE7 /* BookSearchManager.swift */; };
+		1E8091F927E074A8003CAAE7 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8091F827E074A8003CAAE7 /* UserDefaultsManager.swift */; };
+		1E8091FB27E074B5003CAAE7 /* BookReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8091FA27E074B5003CAAE7 /* BookReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		1E8091F127E05D39003CAAE7 /* BookSearchResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchResponseModel.swift; sourceTree = "<group>"; };
 		1E8091F327E05E71003CAAE7 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		1E8091F527E05EA6003CAAE7 /* BookSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchManager.swift; sourceTree = "<group>"; };
+		1E8091F827E074A8003CAAE7 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		1E8091FA27E074B5003CAAE7 /* BookReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +197,7 @@
 				1E8091F327E05E71003CAAE7 /* Book.swift */,
 				1E8091EE27E05C8B003CAAE7 /* BookSearchRequestModel.swift */,
 				1E8091F127E05D39003CAAE7 /* BookSearchResponseModel.swift */,
+				1E8091FA27E074B5003CAAE7 /* BookReview.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				1E8091F527E05EA6003CAAE7 /* BookSearchManager.swift */,
+				1E8091F827E074A8003CAAE7 /* UserDefaultsManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -348,6 +354,8 @@
 				1E8091E727E02866003CAAE7 /* ReviewWritePresenter.swift in Sources */,
 				1E8091DF27E01E7F003CAAE7 /* ReviewListViewController.swift in Sources */,
 				1E8091EF27E05C8B003CAAE7 /* BookSearchRequestModel.swift in Sources */,
+				1E8091F927E074A8003CAAE7 /* UserDefaultsManager.swift in Sources */,
+				1E8091FB27E074B5003CAAE7 /* BookReview.swift in Sources */,
 				1E8091F427E05E71003CAAE7 /* Book.swift in Sources */,
 				1E8091A627E01C76003CAAE7 /* AppDelegate.swift in Sources */,
 				1E8091EA27E05295003CAAE7 /* SearchBookViewController.swift in Sources */,
